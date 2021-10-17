@@ -4,9 +4,26 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <div>
+        
+       <GMap />
+    </div>
+
     <router-view />
   </div>
 </template>
+
+
+<script>
+import GMap from './components/GMap.vue'
+
+export default {
+  name: 'App',
+  components: {
+    GMap
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
