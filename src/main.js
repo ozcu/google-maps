@@ -19,7 +19,7 @@ new Vue({
 
 Vue.use(VueGoogleMaps, {
   load:{
-    key:'AIzaSyAIVctUjEOWS9hj9AZPnDNqLxYIzkSk76A',
+    key:'GOOGLE API KEY',
     libraries:'places'
   }
 
